@@ -20,6 +20,7 @@ class App(QtWidgets.QWidget):
         self.layout.addWidget(self.cbb_devisesTo)
         self.layout.addWidget(self.spn_montantConverti)
         self.layout.addWidget(self.btn_inverser)
+        self.layout.addWidget(self.btn_inverser)
 
 
 app = QtWidgets.QApplication([])
