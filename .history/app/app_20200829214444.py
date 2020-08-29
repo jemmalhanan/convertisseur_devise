@@ -15,12 +15,6 @@ class App(QtWidgets.QWidget):
         self.spn_montantConverti = QtWidgets.QSpinBox()
         self.btn_inverser = QtWidgets.QPushButton("Inverser devises")
 
-        self.layout.addWidget(self.cbb_devisesForm)
-        self.layout.addWidget(self.spn_montant)
-        self.layout.addWidget(self.cbb_devisesTo)
-        self.layout.addWidget(self.spn_montantConverti)
-        self.layout.addWidget(self.btn_inverser)
-
 
 app = QtWidgets.QApplication([])
 win = App()
